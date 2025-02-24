@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BLOGIX Privacy Policy | by BLOGIX</title>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>BLOGIX Privacy Policy | by BLOGIX</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            }
+
+            .navbar {
+                padding: 1rem 2rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid #eee;
+                position: sticky;
+                top: 0;
+                background: white;
+                z-index: 1000;
+            }
+
+            .logo {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #000;
+            }
+
+            .nav-right {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            .search-box {
+                padding: 0.5rem 1rem;
+                border-radius: 20px;
+                border: none;
+                background: #f9f9f9;
+            }
+
+            .sign-up-btn {
+                background: #1a8917;
+                color: white;
+                padding: 0.5rem 1rem;
+                border-radius: 20px;
+                border: none;
+                cursor: pointer;
+            }
+
+            .main-content {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+
+            .header {
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+
+            .title {
+                font-size: 2.5rem;
+                margin-bottom: 1rem;
+                color: rgb(41, 41, 41);
+            }
+
+            .effective-date {
+                color: rgb(117, 117, 117);
+                font-size: 1.2rem;
+            }
+
+            .author-info {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                margin: 2rem 0;
+            }
+
+            .author-avatar {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                background: #eee;
+            }
+
+            .author-details {
+                display: flex;
+                flex-direction: column;
+                gap: 0.25rem;
+            }
+
+            .author-name {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .follow-btn {
+                color: #1a8917;
+                text-decoration: none;
+            }
+
+            .post-meta {
+                color: rgb(117, 117, 117);
+                font-size: 0.9rem;
+            }
+
+            .content {
+                font-size: 1.1rem;
+                line-height: 1.6;
+                color: rgb(41, 41, 41);
+            }
+
+            .content p {
+                margin-bottom: 1.5rem;
+            }
+
+            .contents-section {
+                margin: 3rem 0;
+            }
+
+            .contents-section h2,
+            .collection-section h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1.5rem;
+                color: rgb(41, 41, 41);
+                letter-spacing: -0.022em;
+                font-weight: bold;
+            }
+
+            .contents-section ul {
+                list-style-type: none;
+            }
+
+            .contents-section li {
+                margin-bottom: 1rem;
+                color: rgb(41, 41, 41);
+                cursor: pointer;
+            }
+
+            .contents-section li:hover {
+                text-decoration: underline;
+            }
+
+            .collection-section {
+                margin-top: 3rem;
+            }
+
+            .collection-section h3 {
+                font-size: 1.3rem;
+                margin: 2rem 0 1rem;
+                color: rgb(41, 41, 41);
+                letter-spacing: -0.022em;
+            }
+
+            .automatic-collection {
+                margin-top: 2rem;
+            }
+
+            .activity-info {
+                margin: 1rem 0 1rem 1.5rem;
+                list-style-type: disc;
+            }
+
+            .activity-info li {
+                margin-bottom: 1rem;
+                line-height: 1.7;
+            }
+
+            /* Additional CSS for new sections */
+            .collection-section h2:not(:first-child) {
+                margin-top: 3rem;
+                padding-top: 2rem;
+                border-top: 1px solid #eee;
+            }
+
+            .collection-section p {
+                margin: 1rem 0;
+                line-height: 1.7;
+                color: rgb(41, 41, 41);
+            }
+
+            .collection-section strong {
+                font-weight: 600;
+            }
+
+            /* Existing IDs styling (H, A, B, c, D) */
+            #H ul.sharing-info {
+                list-style-type: disc;
+                margin-left: 1.5rem;
+                padding-left: 1rem;
+            }
+
+            #H ul.sharing-info li {
+                margin-bottom: 1rem;
+                font-size: 1.1rem;
+                font-weight: normal;
+                line-height: 1.6;
+                color: rgb(41, 41, 41);
+            }
+
+            #A ul.third-party-embeds {
+                list-style-type: disc;
+                margin-left: 1.5rem;
+                padding-left: 1rem;
+            }
+
+            #A ul.third-party-embeds li {
+                margin-bottom: 1rem;
+                font-size: 1.1rem;
+                font-weight: normal;
+                line-height: 1.6;
+                color: rgb(41, 41, 41);
+            }
+
+            #B h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1.5rem;
+                color: rgb(41, 41, 41);
+                letter-spacing: -0.022em;
+                font-weight: bold;
+            }
+
+            #B p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+                color: rgb(41, 41, 41);
+            }
+
+            #H p,
+            #A p,
+            #B p {
+                margin-bottom: 1.5rem;
+            }
+
+            #H h2,
+            #A h2,
+            #B h2 {
+                margin-top: 2rem;
+            }
+
+            #H,
+            #A,
+            #B {
+                margin-bottom: 2rem;
+            }
+
+            #c {
+                margin-bottom: 2rem;
+            }
+
+            #c h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1.5rem;
+                color: rgb(41, 41, 41);
+                letter-spacing: -0.022em;
+                font-weight: bold;
+            }
+
+            #c p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+                color: rgb(41, 41, 41);
+                margin-bottom: 1.5rem;
+            }
+
+            #D {
+                margin-bottom: 2rem;
+            }
+
+            #D h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1.5rem;
+                color: rgb(41, 41, 41);
+                letter-spacing: -0.022em;
+                font-weight: bold;
+            }
+
+            #D p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+                color: rgb(41, 41, 41);
+                margin-bottom: 1.5rem;
+            }
+
+            /* ----------------------------------
+           NEW SECTION FOR THE FOUR BOXES
+           WITH IMAGES
+           ---------------------------------- */
+            .more-boxes-section {
+                margin-top: 3rem;
+            }
+
+            .more-boxes-section h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1.5rem;
+                color: rgb(41, 41, 41);
+                letter-spacing: -0.022em;
+                font-weight: bold;
+            }
+
+            .boxes-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                gap: 2rem;
+            }
+
+            .box {
+                background: #fff;
+                border: 1px solid #eee;
+                border-radius: 8px;
+                overflow: hidden;
+                text-align: left;
+                transition: box-shadow 0.3s ease;
+            }
+
+            .box:hover {
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            .box img {
+                width: 100%;
+                height: auto;
+                display: block;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+            }
+
+            .box-content {
+                padding: 1rem;
+            }
+
+            .box-content h3 {
+                font-size: 1.2rem;
+                margin-bottom: 0.5rem;
+                color: rgb(41, 41, 41);
+            }
+
+            .box-content p {
+                font-size: 0.9rem;
+                color: rgb(117, 117, 117);
+                margin-bottom: 0.5rem;
+                line-height: 1.4;
+            }
+
+            /* Responsive Additions */
+            @media (max-width: 768px) {
+                .navbar {
+                    padding: 1rem;
+                    flex-direction: column;
+                    gap: 1rem;
+                    align-items: flex-start;
+                }
+
+                .nav-right {
+                    width: 100%;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                }
+
+                .search-box {
+                    width: 100%;
+                    order: -1;
+                }
+
+                .main-content {
+                    padding: 1rem;
+                }
+
+                .title {
+                    font-size: 2rem;
+                }
+
+                .author-info {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+
+                .content {
+                    font-size: 1rem;
+                }
+
+                .boxes-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .collection-section h2,
+                .collection-section h3,
+                #H h2,
+                #A h2,
+                #B h2,
+                #c h2,
+                #D h2 {
+                    font-size: 1.3rem;
+                }
+            }
+
+            @media (max-width: 480px) {
+                .title {
+                    font-size: 1.75rem;
+                }
+
+                .effective-date {
+                    font-size: 1rem;
+                }
+
+                .post-meta {
+                    flex-wrap: wrap;
+                    gap: 0.5rem;
+                }
+
+                .post-meta span {
+                    display: block;
+                    width: 100%;
+                }
+
+                .sign-up-btn {
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .box-content h3 {
+                    font-size: 1.1rem;
+                }
+
+                .box-content p {
+                    font-size: 0.85rem;
+                }
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .search-box {
+                width: 200px;
+                transition: width 0.3s ease;
+            }
+
+            @media (max-width: 1024px) {
+                .search-box {
+                    width: 150px;
+                }
+            }
+        </style>
+    </head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">BLOGIX</div>
+        <div class="nav-right">
+            <input type="search" placeholder="Search" class="search-box">
+            <button class="sign-up-btn">Sign up</button>
+            <span>Sign in</span>
+            <span><a style="text-decoration:none; color:black;" href="{{url_for('hm')}}">Home</a></span>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="header">
+            <h1 class="title">BLOGIX Privacy Policy</h1>
+            <p class="effective-date">Effective date: March 24, 2022</p>
+        </div>
+
+        <div class="author-info">
+            <div class="author-avatar"></div>
+            <div class="author-details">
+                <div class="author-name">
+                    <span>BLOGIX</span>
+                    <a href="#" class="follow-btn">Follow</a>
+                </div>
+                <div class="post-meta">
+                    <span>Published in BLOGIX Policy</span>
+                    <span>· 11 min read</span>
+                    <span>· Sep 2, 2020</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>You can see our previous Privacy Policy here.</p>
+
+            <p>This Privacy Policy explains how A BLOGIX Corporation ("BLOGIX," "we," or "us") collects, uses, and
+                discloses information about you. This Privacy Policy applies when you use our websites, mobile
+                applications, and other online products and services that link to this Privacy Policy (collectively, our
+                "Services"), contact our customer service team, engage with us on social media, or otherwise interact
+                with us.</p>
+
+            <p>We may change this Privacy Policy from time to time. If we make changes, we will notify you by revising
+                the date at the top of this policy and, in some cases, we may provide you with additional notice (such
+                as adding a statement to our website or providing you with a notification). We encourage you to review
+                this Privacy Policy regularly to stay informed about our information practices and the choices available
+                to you.</p>
+
+            <div class="contents-section">
+                <h2>CONTENTS</h2>
+                <ul>
+                    <li>Collection of Information</li>
+                    <li>Use of Information</li>
+                    <li>Sharing of Information</li>
+                    <li>Third-Party Embeds</li>
+                    <li>Your Choices</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+
+            <div class="collection-section">
+                <h2>COLLECTION OF INFORMATION</h2>
+                <h3>Information You Provide to Us</h3>
+                <p>We collect information you provide directly to us. For example, you share information directly with
+                    us when you create an account, fill out a form, submit or post content through our Services,
+                    purchase a membership, communicate with us via third-party platforms, request customer support, or
+                    otherwise communicate with us. The types of personal information we may collect include your name,
+                    display name, username, bio, email address, business information, your content, including your
+                    avatar image, photos, posts, responses, and series published by you, and any other information you
+                    choose to provide.</p>
+
+                <p>In some cases, we may also collect information you provide about others, such as when you purchase a
+                    BLOGIX membership as a gift for someone. We will use this information to fulfill your request and
+                    will not send communications to your contacts unrelated to your request, unless they separately
+                    consent to receive communications from us or otherwise engage with us.</p>
+
+                <p>We do not collect payment information through our Services. We rely on third parties to process
+                    payments in connection with our Services. Any information you provide to facilitate such a payment
+                    is subject to the third-party payment processor's privacy policy, and we encourage you to review
+                    this policy before you provide any information to the payment processor.</p>
+
+                <div class="automatic-collection">
+                    <h3>Information We Collect Automatically When You Interact with Us</h3>
+                    <p>In some instances, we automatically collect certain information, including:</p>
+                    <ul class="activity-info">
+                        <li><strong>Transactional Information:</strong> When you purchase a membership, we collect
+                            information about the transaction, such as subscription details, purchase price, and the
+                            date of the transaction.</li>
+                        <li><strong>Device and Usage Information:</strong> We collect information about how you access
+                            our Services, including data about the device and network you use, such as your hardware
+                            model, operating system version, mobile network, IP address, unique device identifiers,
+                            browser type, and app version. We also collect information about your activity
+                            </head>
+
+                            <body>
+                                <nav class="navbar">
+                                    <div class="logo">BLOGIX</div>
+                                    <div class="nav-right">
+                                        <input type="search" placeholder="Search" class="search-box">
+                                        <button class="sign-up-btn">Sign up</button>
+                                        <span>Sign in</span>
+                                    </div>
+                                </nav>
+
+                                <main class="main-content">
+                                    <div class="header">
+                                        <h1 class="title">BLOGIX Privacy Policy</h1>
+                                        <p class="effective-date">Effective date: March 24, 2022</p>
+                                    </div>
+
+                                    <div class="author-info">
+                                        <div class="author-avatar"></div>
+                                        <div class="author-details">
+                                            <div class="author-name">
+                                                <span>BLOGIX</span>
+                                                <a href="#" class="follow-btn">Follow</a>
+                                            </div>
+                                            <div class="post-meta">
+                                                <span>Published in BLOGIX Policy</span>
+                                                <span>· 11 min read</span>
+                                                <span>· Sep 2, 2020</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="content">
+                                        <p>You can see our previous Privacy Policy <a href="#">here</a>.</p>
+
+                                        <p>This Privacy Policy explains how A BLOGIX Corporation ("BLOGIX," "we," or
+                                            "us") collects, uses, and discloses information about you. This Privacy
+                                            Policy applies when you use our websites, mobile applications, and other
+                                            online products and services that link to this Privacy Policy (collectively,
+                                            our "Services"), contact our customer service team, engage with us on social
+                                            media, or otherwise interact with us.</p>
+
+                                        <p>We may change this Privacy Policy from time to time. If we make changes, we
+                                            will notify you by revising the date at the top of this policy and, in some
+                                            cases, we may provide you with additional notice (such as adding a statement
+                                            to our website or providing you with a notification). We encourage you to
+                                            review this Privacy Policy regularly to stay informed about our information
+                                            practices and the choices available to you.</p>
+
+                                        <div class="contents-section">
+                                            <h2>CONTENTS</h2>
+                                            <ul>
+                                                <li>Collection of Information</li>
+                                                <li>Use of Information</li>
+                                                <li>Sharing of Information</li>
+                                                <li>Third-Party Embeds</li>
+                                                <li>Your Choices</li>
+                                                <li>Contact Us</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="collection-section">
+                                            <h2>COLLECTION OF INFORMATION</h2>
+                                            <h3>Information You Provide to Us</h3>
+                                            <p>We collect information you provide directly to us. For example, you share
+                                                information directly with us when you create an account, fill out a
+                                                form, submit or post content through our Services, purchase a
+                                                membership, communicate with us via third-party platforms, request
+                                                customer support, or otherwise communicate with us. The types of
+                                                personal information we may collect include your name, display name,
+                                                username, bio, email address, business information, your content,
+                                                including your avatar image, photos, posts, responses, and series
+                                                published by you, and any other information you choose to provide.</p>
+
+                                            <p>In some cases, we may also collect information you provide about others,
+                                                such as when you purchase a BLOGIX membership as a gift for someone. We
+                                                will use this information to fulfill your request and will not send
+                                                communications to your contacts unrelated to your request, unless they
+                                                separately consent to receive communications from us or otherwise engage
+                                                with us.</p>
+
+                                            <p>We do not collect payment information through our Services. We rely on
+                                                third parties to process payments in connection with our Services. Any
+                                                information you provide to facilitate such a payment is subject to the
+                                                third-party payment processor's privacy policy, and we encourage you to
+                                                review this policy before you provide any information to the payment
+                                                processor.</p>
+
+                                            <div class="automatic-collection">
+                                                <h3>Information We Collect Automatically When You Interact with Us</h3>
+                                                <p>In some instances, we automatically collect certain information,
+                                                    including:</p>
+                                                <ul class="activity-info">
+                                                    <li><strong>Transactional Information:</strong> When you purchase a
+                                                        membership, we collect information about the transaction, such
+                                                        as subscription details, purchase price, and the date of the
+                                                        transaction.</li>
+                                                    <li><strong>Device and Usage Information:</strong> We collect
+                                                        information about how you access our Services, including data
+                                                        about the device and network you use, such as your hardware
+                                                        model, operating system version, mobile network, IP address,
+                                                        unique device identifiers, browser type, and app version. We
+                                                        also collect information about your activity on our Services,
+                                                        such as access times, pages viewed, links clicked, and the page
+                                                        you visited before navigating to our Services.</li>
+                                                    <li><strong>Information Collected by Cookies and Similar Tracking
+                                                            Technologies:</strong> We use tracking technologies, such as
+                                                        cookies and web beacons, to collect information about you.
+                                                        Cookies are small data files stored on your hard drive or in
+                                                        device memory that help us improve our Services and your
+                                                        experience, see which areas and features of our Services are
+                                                        popular, and count visits. Web beacons (also known as "pixel
+                                                        tags" or "clear GIFs") are electronic images that we use on our
+                                                        Services and in our emails to help deliver cookies, count
+                                                        visits, and understand usage. We also work with third party
+                                                        analytics providers who use cookies, web beacons, and similar
+                                                        technologies to collect information about your use of our
+                                                        Services and other websites and apps.</li>
+                                                </ul>
+                                            </div>
+
+                                            <h3>Information We Collect from Other Sources</h3>
+                                            <p>We obtain information from third-party sources. For example, we may
+                                                collect information about you from social networks, accounting services
+                                                providers and data analytics providers. Additionally, if you create or
+                                                log into your BLOGIX account through a third-party platform (such as
+                                                Apple, Facebook, Google, or Twitter), we will have access to certain
+                                                information from that platform, such as your name, lists of friends or
+                                                followers, birthday, and profile picture, in accordance with the
+                                                authorization procedures determined by such platform.</p>
+
+                                            <h3>Information We Derive</h3>
+                                            <p>We may derive information or draw inferences about you based on the
+                                                information we collect. For example, we may make inferences about your
+                                                location based on your IP address or infer reading preferences based on
+                                                your reading history.</p>
+
+                                            <h2>USE OF INFORMATION</h2>
+                                            <p>We use the information we collect to provide, maintain, and improve our
+                                                Services, which includes publishing and distributing user-generated
+                                                content, personalizing the posts you see and operating our metered
+                                                paywall. We also use the information we collect to:</p>
+                                        </div>
+                                    </div>
+
+                                    <div id="H">
+                                        <h2>SHARING OF INFORMATION</h2>
+                                        <p>We share personal information in the following circumstances or as otherwise
+                                            described in this policy:</p>
+                                        <ul class="sharing-info">
+                                            <li>We share personal information with other users of the Services...</li>
+                                            <li>We share personal information with vendors, service providers, and
+                                                consultants...</li>
+                                            <li>We may disclose personal information if required by law...</li>
+                                            <li>We may share personal information if we believe your actions violate
+                                                policies...</li>
+                                            <li>We share personal information with our lawyers and professional
+                                                advisors...</li>
+                                            <li>We may share personal information in connection with mergers, sales, or
+                                                acquisitions...</li>
+                                            <li>Personal information is shared between BLOGIX and affiliated
+                                                companies...</li>
+                                            <li>We share personal information with your consent or at your direction.
+                                            </li>
+                                            <li>We also share aggregated or de-identified information.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div id="A">
+                                        <h2>THIRD-PARTY EMBEDS</h2>
+                                        <ul class="third-party-embeds">
+                                            <li>BLOGIX does not host some of the content displayed on our Services.</li>
+                                            <li>Users can post content that is hosted by a third party but embedded in
+                                                our pages (an “Embed”).</li>
+                                            <li>When you interact with an Embed, it can send information about your
+                                                interaction to the hosting third party, similar to visiting their site
+                                                directly.</li>
+                                            <li>For example, watching a YouTube video Embed on BLOGIX means YouTube
+                                                receives information about your activity, such as your IP address and
+                                                watch time.</li>
+                                            <li>BLOGIX does not control the information third parties collect through
+                                                Embeds or how they use it.</li>
+                                            <li>This Privacy Policy does not apply to information collected through
+                                                Embeds.</li>
+                                            <li>The third-party hosting the Embed has its own privacy policy, which you
+                                                should review before interacting with the Embed.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div id="B">
+                                        <h2>Account Information</h2>
+                                        <p>You may access, correct, delete and export your account information at any
+                                            time by logging into the Services and navigating to the Settings page.
+                                            Please note that if you choose to delete your account, we may continue to
+                                            retain certain information about you as required by law or for our
+                                            legitimate business purposes.</p>
+
+                                        <h2>Cookies</h2>
+                                        <p>Most web browsers are set to accept cookies by default. If you prefer, you
+                                            can usually adjust your browser settings to remove or reject browser
+                                            cookies. Please note that removing or rejecting cookies could affect the
+                                            availability and functionality of our Services.</p>
+
+                                        <h2>Communications Preferences</h2>
+                                        <p>You may opt out of receiving certain communications from us, such as digests,
+                                            newsletters, and activity notifications, by following the instructions in
+                                            those communications or through your account’s Settings page. If you opt
+                                            out, we may still send you administrative emails, such as those about your
+                                            account or our ongoing business relations.</p>
+
+                                        <h2>Mobile Push Notifications</h2>
+                                        <p>With your consent, we may send push notifications to your mobile device. You
+                                            can deactivate these messages at any time by changing the notification
+                                            settings on your mobile device.</p>
+                                    </div>
+
+                                    <div id="c">
+                                        <h2>Data Retention</h2>
+                                        <p>We store personal data associated with your account for as long as your
+                                            account remains active. If you close your account, we will delete your
+                                            account data within 14 days. We store other personal data for as long as
+                                            necessary to carry out the purposes for which we originally collected it and
+                                            for other legitimate business purposes, including to meet our legal,
+                                            regulatory, or other compliance obligations.</p>
+                                    </div>
+
+                                    <div id="D">
+                                        <h2>CONTACT US</h2>
+                                        <p>If you have any questions about this Privacy Policy, please contact us at
+                                            privacy@BLOGIX.com.</p>
+                                        <p>If you are from the EEA or the United Kingdom and have questions about this
+                                            Privacy Policy, please contact us at privacy@BLOGIX.com or our privacy
+                                            representatives as follows:</p>
+                                    </div>
+
+                                    <!-- NEW SECTION: Boxes with images -->
+                                    <div class="more-boxes-section">
+                                        <h2>More from BLOGIX and BLOGIX Policy</h2>
+                                        <div class="boxes-grid">
+                                            <!-- Box 1 -->
+                                            <div class="box">
+                                                <img src="../static/img/img9.jpg" alt="">
+                                                <div class="box-content">
+                                                    <h3>BLOGIX Rules</h3>
+                                                    <p>May 26, 2021 • 53K Reads • 272 Comments</p>
+                                                </div>
+                                            </div>
+                                            <!-- Box 2 -->
+                                            <div class="box">
+                                                <img src="../static/img/img10.jpg" alt="BLOGIX TOS Image">
+                                                <div class="box-content">
+                                                    <h3>BLOGIX Terms of Service</h3>
+                                                    <p>Sep 2, 2020 • 44K Reads • 430 Comments</p>
+                                                </div>
+                                            </div>
+                                            <!-- Box 3 -->
+                                            <div class="box">
+                                                <img src="../static/img/img11.jpg" alt="Partner Program Image">
+                                                <div class="box-content">
+                                                    <h3>BLOGIX Partner Program Terms</h3>
+                                                    <p>Effective as of August 1, 2024</p>
+                                                    <p>Aug 2, 2023 • 12K Reads • 210 Comments</p>
+                                                </div>
+                                            </div>
+                                            <!-- Box 4 -->
+                                            <div class="box">
+                                                <img src="../static/img/img12.jpg" alt="Tips and Tricks Image">
+                                                <div class="box-content">
+                                                    <h3>Tips and Tricks for BLOGIX Writers</h3>
+                                                    <p>Make the best out of BLOGIX as a writer with these hints</p>
+                                                    <p>Oct 3, 2017 • 59K Reads • 122 Comments</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </main>
+                            </body>
+
+</html>

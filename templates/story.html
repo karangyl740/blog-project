@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogSpace - Share Your Story</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        body {
+            background-color: rgb(25, 25, 25);
+            color: white;
+        }
+
+        nav {
+            padding: 1rem;
+            border-bottom: 1px solid rgb(38, 38, 38);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .hero {
+            padding: 5rem 0;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero p {
+            font-size: 1.125rem;
+            color: rgb(163, 163, 163);
+            max-width: 650px;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        .buttons {
+            margin-top: 3rem;
+        }
+
+        .action-button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            background: transparent;
+            border: 1px solid rgb(38, 38, 38);
+            color: white;
+            font-size: 1.25rem;
+            text-align: left;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .action-button:hover {
+            background-color: rgb(38, 38, 38);
+        }
+
+        .arrow {
+            font-size: 1.5rem;
+        }
+
+        footer {
+            margin-top: 5rem;
+            padding: 2rem 0;
+            border-top: 1px solid rgb(38, 38, 38);
+            text-align: center;
+            color: rgb(163, 163, 163);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .action-button {
+                padding: 1rem;
+                font-size: 1.125rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">BlogSpace</div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Share your thoughts with the world</h1>
+            <p>BlogSpace is where ideas come to life. Whether you're writing about technology, lifestyle, or your personal journey, this is your space to express, connect, and inspire others.</p>
+            <p>Our mission is to create a space where every voice matters and every story has the power to make a difference.</p>
+        </section>
+
+        <section class="buttons">
+            <button class="action-button">
+                Start reading
+                <span class="arrow">→</span>
+            </button>
+            <button class="action-button">
+                Start writing
+                <span class="arrow">→</span>
+            </button>
+            <button class="action-button">
+                Become a member
+                <span class="arrow">→</span>
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>BlogSpace © 2025</p>
+        </div>
+    </footer>
+</body>
+</html>

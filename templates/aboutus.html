@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./WhatsApp_Image_2024-11-07_at_17.00.21_484bb630-removebg-preview (1).png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .header {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            padding: 20px;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 40px;
+            color: #333;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin-left: 870px;
+            margin-top: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        .contact {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        .about-us {
+            flex: 2;
+            max-width: 50%;
+            padding: 20px;
+        }
+
+        .about-us h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .about-us p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            margin-left: 70px;
+        }
+
+        .map-address {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-left: 50px;
+        }
+
+        .map {
+            width: 100%;
+            height: 350px;
+            border: 1px solid #ddd;
+        }
+
+        .address h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .address p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .founders {
+            margin-top: 40px;
+        }
+
+        .founder {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .founder img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ccc;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .founder img:hover {
+            transform: scale(1.05);
+        }
+
+        .founder-info h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .founder-info p {
+            font-size: 16px;
+            color: #555;
+            max-width: 500px;
+        }
+
+        .social-icons {
+            margin-top: 50px;
+            margin-right: 410px;
+        }
+
+        .social-icons a {
+            font-size: 24px;
+            margin: 10px;
+        }
+
+        .copyright {
+            font-size: 14px;
+            color: #333;
+            margin-left: 175px;
+            margin-top: 20px;
+        }
+        #navbar{
+            margin-left: 250px;
+        }
+        .founders{
+            margin-left: 640px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid" style="max-width: 800px; padding: 2rem;">
+            <div class="d-flex justify-content-between">
+            
+                <img src="../static/img/Black Handwritten Organic Creative Freelancer Artist Logo.png" alt="" width="90px">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{url_for('hm')}}">Home</a>
+                  </li>
+                </ul>
+                <form class="d-flex ms-3">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="ms-3"></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+    <section class="contact">
+        <div class="about-us">
+            <h1>About Us</h1>
+            <p>
+                We are a passionate team dedicated to providing top-quality services and products to our clients.
+                With over a decade of experience in the industry, we have built a reputation for excellence and
+                trustworthiness. Our company focuses on innovation, customer satisfaction, and creating sustainable
+                solutions that address the unique challenges of our clients.
+            </p>
+            <p>
+                Our core values center around integrity, accountability, and delivering the best results. We
+                collaborate with clients to understand their specific needs, providing tailored solutions to ensure
+                long-term success. We strive to empower businesses to reach their full potential by offering expertise
+                in every aspect of our services.
+            </p>
+            <p>
+                Our mission is to create value for our clients, enhance their operations, and help them thrive in a
+                constantly evolving market. With our deep industry knowledge, we aim to be a trusted partner to
+                businesses of all sizes, helping them navigate challenges, seize opportunities, and achieve their goals.
+            </p>
+            <p>
+                We believe in a culture of collaboration and transparency, both internally within our team and externally
+                with our clients. This approach ensures that we can work together to achieve optimal outcomes.
+                As we move forward, we are committed to continuous learning and improvement, embracing new technologies
+                and methodologies to stay ahead in an ever-changing world.
+            </p>
+        </div>
+
+        <div class="contact-info">
+            <div class="map-address">
+                <div class="map">
+                    <h2>Find Us On The Map</h2>
+                    <!-- Google Maps Embed -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.509950559793!2d-122.08588028469074!3d37.42199977982556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba3b124e3fd5%3A0x16e771324d01938d!2sGoogleplex!5e0!3m2!1sen!2sus!4v1638473476623!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="address" style="margin-top: 70px;">
+                    <h3>Our Address</h3>
+                    <p><strong>Auction Avenue</strong></p>
+                    <p>Chitkara University</p>
+                    <p>Rajpura, India, 141013</p>
+                    <p><strong>Email:</strong> Aucave@gmail.com</p>
+                    <p><strong>Phone:</strong> +91-5439-83-3671</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="founders">
+        <h2 style="margin-left: 180px;margin-bottom:50px;">Meet the Founders</h2>
+        <div class="founder">
+            <img src="../static/img/WhatsApp Image 2025-02-18 at 14.39.31_7eb19552.jpg" alt="Founder 1">
+            <div class="founder-info">
+                <h3>Kunwar Bansal</h3>
+                <p>Kunwar Bansal is the visionary behind our company. he drives
+                    innovation and business development. He thrives on creating impactful strategies that lead to
+                    sustainable growth for our clients and the company alike.</p>
+            </div>
+        </div>
+
+        <div class="founder">
+            <img src="../static/img/WhatsApp Image 2025-02-18 at 14.42.23_80d53e53.jpg" alt="Founder 2">
+            <div class="founder-info">
+                <h3>Harman Arora</h3>
+                <p>Harman Arora is an expert in operations and strategy. With a passion for solving complex problems,
+                    he ensures that our services are delivered seamlessly to our clients. he plays a pivotal
+                    role in making sure our business processes remain efficient and customer-centric.</p>
+            </div>
+        </div>
+
+        <div class="founder">
+            <img src="../static/img/WhatsApp Image 2025-02-18 at 14.43.40_a249c3da.jpg" alt="Founder 3">
+            <div class="founder-info">
+                <h3>Karan Goyal</h3>
+                <p>Karan Goyal leads our technology and development teams. He has a wealth of experience in software
+                    engineering and innovation, which he uses to ensure our products and services remain cutting-edge
+                    and efficient in the fast-paced tech world.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-icons text-center mt-4" style="margin-left: 400px;">
+        <a href="#" class="fab fa-linkedin mx-3" style="font-size: 24px; color: #0077b5;"></a>
+        <a href="#" class="fab fa-youtube mx-3" style="font-size: 24px; color: #FF0000;"></a>
+        <a href="#" class="fab fa-facebook mx-3" style="font-size: 24px; color: #3b5998;"></a>
+        <a href="#" class="fab fa-instagram mx-3" style="font-size: 24px; color: #C13584;"></a>
+        <a href="#" class="fab fa-twitter mx-3" style="font-size: 24px; color: #1DA1F2;"></a>
+    </div>
+</body>
+</html>
